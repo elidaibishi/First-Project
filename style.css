@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: gray;
+}
+
+.container{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    width: 1820px;
+    height: 900px;
+    border-radius: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-icon{
+    width: 150px;
+    height: 150px;
+    padding: 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 30px 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+}
+
+form{
+    display: flex;
+    float: right;
+    padding-right: 60px;
+    padding-top: 40px;
+}
+
+input[name="type here"]{
+    width: 180px;
+    height: 25px;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+}
+
+.main-heading{
+    text-decoration: none;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-top: 60px;
+}
+
+h1{
+    font-size: 80px;
+    color: rgb(92, 92, 92);
+}
+
+p{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: rgb(87, 87, 87);
+}
+
+aside{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid  rgba(86, 85, 85, 0.549);
+    border-radius: 30px;
+    width: 170px;
+    height: 40px;
+    background-color: rgba(86, 85, 85, 0.549);
+}
+
+.icon{
+    width: 50px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.big-button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    color: white;
+}
+
+.icon-web{
+    float: right;
+    padding-right: 40px;
+    width: 40%;
+    height: 40%;
+}
