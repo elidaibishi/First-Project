@@ -58,11 +58,11 @@ button{
 .main-heading{
     display: flex;
     justify-content: space-between;
-    padding: 60px 80px;
+    padding: 0 80px;
 }
 
 .text-section{
-    width: 50%;
+    width: 40%;
 }
 
 h1{
@@ -105,7 +105,7 @@ p{
 .icon-web{
     padding-right: 40px;
     width: 40%;
-    height: auto;
+    height: 30%;
 }
 
 .product-list {
