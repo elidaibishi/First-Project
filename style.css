@@ -27,6 +27,7 @@ header{
 
 nav ul{
     list-style: none;
+    display: block;
 }
 nav ul li{
     display: inline-block;
@@ -111,8 +112,6 @@ p{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 40px 0;
-    gap: 20px;
 }
 
 .product-card {
@@ -121,9 +120,9 @@ p{
     border-radius: 10px;
     width: 300px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: rgba(0,0,0,0.1);
     text-align: center;
-    transition: transform 0.3s ease;
+    transition: transform .3s ease-in-out;
 }
 
 .product-card:hover {
@@ -137,28 +136,86 @@ p{
 }
 
 .product-card h2 {
-    font-size: 24px;
-    color: #333;
+    font-size: 25px;
+    color: #404040e4;
     margin: 10px 0;
 }
 
-.product-card p {
-    font-size: 18px;
-    color: #666;
+.product-card .price{
+    font-size: 20px;
+    color: #666666e0;
 }
 
 .product-card button {
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #444;
-    color: #fff;
+    background-color: #4e4b4b;
+    color: #f2ededcb;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    height: 30px;
+    transition: .3s ease-in-out;
+    height: 40px;
+    width: 120px;
 }
 
 .product-card button:hover {
-    background-color: #222;
+    background-color: #2c2b2b;
+}
+
+.contact-class {
+  max-width: 700px;
+  height: 500px;
+  margin: 0 ;
+  background: white;
+  padding: 30px ;
+  border-radius: 10px;
+}
+
+.contact-text {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-text h1 {
+  font-size: 20px;
+  color: #27394ca0;
+}
+
+.contact-text p {
+  font-size: 10px;
+  color: #4f4c4cd5;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input{
+  padding: 10px;
+  border: 1px solid #a49d9d;
+  border-radius: 6px;
+  font-size: 10px;
+}
+
+.contact-form textarea{
+  padding: 10px;
+  border: 1px solid #a6a0a0ba;
+  border-radius: 5px;
+  font-size: 10px;
+}
+
+.contact-form button {
+  padding: 10px;
+  background-color: #353535c2;
+  color: white;
+  font-size: 10px;
+  height: 40px ;
+  border: none;
+  border-radius: 5px;
+  transition: .3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #2b3c4f;
 }
